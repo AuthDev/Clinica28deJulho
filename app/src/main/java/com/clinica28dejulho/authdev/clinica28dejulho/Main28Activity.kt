@@ -38,6 +38,7 @@ class Main28Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelec
 
         fab.setOnClickListener {
             AnimFab()
+            
         }
 
         fab1.setOnClickListener{
