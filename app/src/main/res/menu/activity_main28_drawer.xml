@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_atendimento"
+            android:icon="@drawable/ic_local_hospital"
+            android:title="@string/nav_header_atendimento" />
+        <item
+            android:id="@+id/nav_exames_complementares"
+            android:icon="@drawable/ic_enhanced_encryption"
+            android:title="@string/nav_header_exames_complementares" />
+        <item
+            android:id="@+id/nav_sala_vacinas"
+            android:icon="@drawable/ic_colorize"
+            android:title="@string/nav_header_vacinas" />
+        <item
+            android:id="@+id/nav_exames_laboratoriais"
+            android:icon="@drawable/ic_opacity"
+            android:title="@string/nav_header_exames_laboratoriais" />
+    </group>
+
+    <item android:title="Central de Atendimento">
+        <menu>
+            <item
+                android:id="@+id/nav_business"
+                android:icon="@drawable/ic_facebook"
+                android:title="@string/nav_header_business" />
+            <item
+                android:id="@+id/nav_instagran"
+                android:icon="@drawable/ic_instagram"
+                android:title="@string/nav_header_instagram" />
+            <item
+                android:id="@+id/nav_site"
+                android:icon="@drawable/ic_public_black"
+                android:title="@string/nav_header_site" />
+            <item
+                android:id="@+id/nav_blog"
+                android:icon="@drawable/ic_blog"
+                android:title="@string/nav_header_blog" />
+        </menu>
+    </item>
+
+</menu>

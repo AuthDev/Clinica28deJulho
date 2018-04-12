@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Clinica 28 de Julho</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_atendimento">Atédimento Médico</string>
+    <string name="nav_header_exames_complementares">Exames Complementares</string>
+    <string name="nav_header_exames_laboratoriais">Exames Laboratoriais</string>
+    <string name="nav_header_vacinas">Sala de Vacinas</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_telefone">Telefone</string>
+    <string name="nav_header_whatsapp">Whatsapp</string>
+    <string name="nav_header_messenger">Messenger</string>
+    <string name="nav_header_business">Facebook</string>
+    <string name="nav_header_instagram">Instagram</string>
+    <string name="nav_header_site">Site</string>
+    <string name="nav_header_blog">Blog</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_abertura">A Clínica 28 de Julho é quem cuida de você!</string>
+    <string name="consultas">Consultas</string>
+    <string name="exames">Exames</string>
+    <string name="titulo_abertura2">Consultas e exames para hoje!</string>
+    <string name="titulo_abertura3">O que você deseja marcar?</string>
+    <string name="nossas_unidades">Nossas unidades</string>
+    <string name="endereco1">Unidade José Bastos</string>
+    <string name="endereco2">Unidade Inácio Tosta</string>
+    <string name="edereco_discrim_1">Praça José Bastos, 74 - Centro, Itabuna - BA, 45600-080</string>
+    <string name="endereco_discrim2">Av. Inácio Tosta Filho, 305 - Centro, Itabuna - BA, 45600-201</string>
+    <string name="especialidade_escolha">Ecolha uma\n especialidade!</string>
+</resources>
