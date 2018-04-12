@@ -38,7 +38,6 @@ class Main28Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelec
 
         fab.setOnClickListener {
             AnimFab()
-            
         }
 
         fab1.setOnClickListener{
@@ -59,6 +58,9 @@ class Main28Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelec
         button_consultas.setOnClickListener {
             val intent  =  Intent(this,EspecialidadesActivity::class.java)
             startActivity(intent)
+        }
+        button_exames.setOnClickListener{
+            startActivity(Intent(this,ExamesActivity::class.java))
         }
 
         val toggle = ActionBarDrawerToggle(

@@ -10,7 +10,6 @@ import kotlinx.android.synthetic.main.activity_especialidades.*
 
 class EspecialidadesActivity : AppCompatActivity() {
 
-    private lateinit var recyclerView: RecyclerView
     private lateinit var viewAdapter: RecyclerView.Adapter<*>
     private lateinit var viewManager: RecyclerView.LayoutManager
 

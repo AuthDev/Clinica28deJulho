@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import com.clinica28dejulho.authdev.clinica28dejulho.R
 import kotlinx.android.synthetic.main.item_procedimentos.view.*
 
-class EspecialidadesAdapter(private val lista:Array<String>, private val context:Context) : Adapter<EspecialidadesAdapter.ViewHolder>()
+class ExamesAdapter(private val lista:Array<String>, private val context:Context) : Adapter<ExamesAdapter.ViewHolder>()
 {
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
