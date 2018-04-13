@@ -63,6 +63,13 @@ class Main28Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelec
             startActivity(Intent(this,ExamesActivity::class.java))
         }
 
+        endereco1.setOnClickListener{
+            startActivity(Intent(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.br/maps/place/Cl%C3%ADnica+M%C3%A9dica+28+de+Julho/@-14.7880287,-39.2747222,19z/data=!3m1!4b1!4m5!3m4!1s0x739aa60b4fb77a7:0xa967e38de3252fc4!8m2!3d-14.78803!4d-39.274175"))))
+        }
+        endereco2.setOnClickListener{
+            startActivity(Intent(Intent.ACTION_VIEW,Uri.parse("https://www.google.com.br/maps/place/Cl%C3%ADnica+M%C3%A9dica+28+de+Julho/@-14.7893209,-39.2786136,17z/data=!3m1!4b1!4m5!3m4!1s0x739aa5e32dd81ed:0x5b35d41d1bf95e1c!8m2!3d-14.7893261!4d-39.2764249")))
+        }
+
         val toggle = ActionBarDrawerToggle(
                 this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
         drawer_layout.addDrawerListener(toggle)
@@ -106,13 +113,24 @@ class Main28Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelec
                 startActivity(Intent(this,ExamesActivity::class.java))
             }
             R.id.nav_sala_vacinas -> {
-                startActivity(Intent(this,MapsActivity::class.java))
+
 
             }
             R.id.nav_exames_laboratoriais -> {
 
             }
-
+            R.id.nav_business->{
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/clinica28deJulho/")))
+            }
+            R.id.nav_site->{
+                startActivity(Intent(Intent.ACTION_VIEW,Uri.parse("http://www.clinica28dejulho.com.br/")))
+            }
+            R.id.nav_instagram->{
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/clinica28dejulho/")))
+            }
+            R.id.nav_blog->{
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://blog.clinica28dejulho.com.br/")))
+            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)

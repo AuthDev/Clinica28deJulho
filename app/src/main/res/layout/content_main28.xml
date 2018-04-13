@@ -85,47 +85,99 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:padding="10dp"
                 android:text="@string/nossas_unidades"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimary"
                 android:textSize="30sp" />
 
-            <TextView
-                android:id="@+id/textView6"
+            <LinearLayout
+                android:id="@+id/endereco1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/endereco1"
-                android:textAlignment="center"
-                android:textSize="24sp" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/edereco_discrim_1"
-                android:textAlignment="center"
-                android:textSize="18sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/endereco1"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:text="@string/edereco_discrim_1"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/ic_mapa" />
+
+            </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="25dp" />
 
-            <TextView
-                android:id="@+id/textView5"
+            <LinearLayout
+                android:id="@+id/endereco2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/endereco2"
-                android:textAlignment="center"
-                android:textSize="24sp" />
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView7"
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/ic_mapa" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/endereco2"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp"
+                        android:text="@string/endereco_discrim2"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/endereco_discrim2"
-                android:textAlignment="center"
-                android:textSize="18sp" />
+                android:layout_height="50dp" />
 
         </LinearLayout>
     </ScrollView>
