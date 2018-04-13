@@ -27,6 +27,6 @@ class EspecialidadesAdapter(private val lista:Array<String>, private val context
 
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
     {
-        val textV = itemView.tvEspecialidade
+        val textV = itemView.btn_procedimento
     }
 }

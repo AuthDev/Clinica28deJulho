@@ -103,9 +103,10 @@ class Main28Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelec
                 startActivity(intent)
             }
             R.id.nav_exames_complementares -> {
-
+                startActivity(Intent(this,ExamesActivity::class.java))
             }
             R.id.nav_sala_vacinas -> {
+                startActivity(Intent(this,MapsActivity::class.java))
 
             }
             R.id.nav_exames_laboratoriais -> {
