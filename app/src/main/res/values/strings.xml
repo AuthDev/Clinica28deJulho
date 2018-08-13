@@ -26,7 +26,7 @@
     <string name="endereco2">Unidade Inácio Tosta</string>
     <string name="edereco_discrim_1">Praça José Bastos, 74 - Centro, Itabuna - BA, 45600-080</string>
     <string name="endereco_discrim2">Av. Inácio Tosta Filho, 305 - Centro, Itabuna - BA, 45600-201</string>
-    <string name="especialidade_escolha">Ecolha uma\n especialidade!</string>
+    <string name="especialidade_escolha">Escolha uma\n especialidade!</string>
     <string name="title_activity_exames">ExamesActivity</string>
     <string name="exames_selecione">Selecione um\n exame!</string>
     <string name="title_activity_maps">Map</string>
